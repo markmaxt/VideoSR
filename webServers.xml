@@ -1,0 +1,19 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d7383097-2f11-498e-877e-372794bfdb8b" name="a3c" url="http://219.223.189.207">
+        <fileTransfer host="219.223.189.207" port="22" rootFolder="/home/maxt" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="bae88776-a6fb-4e62-917f-05cc3346b278" name="maxt@219.223.189.204:22" url="http:///">
+        <fileTransfer host="219.223.189.204" port="22" accessType="SFTP">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
