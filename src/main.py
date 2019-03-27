@@ -10,9 +10,9 @@ from trainer import Trainer
 torch.manual_seed(args.seed)
 checkpoint = utility.checkpoint(args)
 
-def main():
+def main(args):
     global model
-    if args.data_test == 'video':
+    if args.data_test[0] == 'video':
         from videotester import VideoTester
         model = model.Model(args, checkpoint)
         t = VideoTester(args, model, checkpoint)
@@ -21,8 +21,8 @@ def main():
         if checkpoint.ok:
             loader = data.Data(args)
             model = model.Model(args, checkpoint)
-            loss = loss.Loss(args, checkpoint) if not args.test_only else None
-            t = Trainer(args, loader, model, loss, checkpoint)
+            loss_a = loss.Loss(args, checkpoint) if not args.test_only else None
+            t = Trainer(args, loader, model, loss_a, checkpoint)
             while not t.terminate():
                 t.train()
                 t.test()
@@ -30,4 +30,4 @@ def main():
             checkpoint.done()
 
 if __name__ == '__main__':
-    main()
+    main(args)
