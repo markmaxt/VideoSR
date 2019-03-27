@@ -25,7 +25,7 @@ def main(args):
             t = Trainer(args, loader, model, loss_a, checkpoint)
             while not t.terminate():
                 t.train()
-                t.test()
+                t.test
 
             checkpoint.done()
 
