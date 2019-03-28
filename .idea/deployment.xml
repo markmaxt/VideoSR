@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="maxt@219.223.189.204:22">
+    <serverData>
+      <paths name="Img_SR">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/code_idea" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="a3c">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="maxt@219.223.189.204:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/maxt/code_idea/EDSR-PyTorch" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
