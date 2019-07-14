@@ -29,6 +29,11 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="514448fb-6949-49b0-9920-9f499919b88a" name="maxt@219.223.189.206:22" url="http:///">
+        <fileTransfer host="219.223.189.206" port="22" accessType="SFTP">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
