@@ -39,8 +39,11 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="fe55a44c-6319-4865-84b0-45ed4a01a73f" name="cjm@219.223.189.146:22" url="http:///">
+      <webServer id="d8aac2c2-5dbf-4fab-b030-5d2de69c4399" name="Saliency_Idea" url="http://219.223.189.146">
         <fileTransfer host="219.223.189.146" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
