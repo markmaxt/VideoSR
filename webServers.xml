@@ -34,8 +34,13 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="929cad41-1a00-4c6f-b343-aa74186c89e1" name="maxt@219.223.189.206:22" url="http:///">
+      <webServer id="929cad41-1a00-4c6f-b343-aa74186c89e1" name="maxt@219.223.189.206:22 (1)" url="http:///">
         <fileTransfer host="219.223.189.206" port="22" accessType="SFTP">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="fe55a44c-6319-4865-84b0-45ed4a01a73f" name="cjm@219.223.189.146:22" url="http:///">
+        <fileTransfer host="219.223.189.146" port="22" accessType="SFTP">
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
