@@ -57,7 +57,7 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="b1160e8a-c1ce-4544-b7b1-c29c2c25cc57" name="root@120.77.205.43:22" url="http:///">
+      <webServer id="b1160e8a-c1ce-4544-b7b1-c29c2c25cc57" name="root@120.77.205.43:22 (1)" url="http:///">
         <fileTransfer host="120.77.205.43" port="22" accessType="SFTP">
           <option name="port" value="22" />
         </fileTransfer>
