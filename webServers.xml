@@ -62,12 +62,7 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="ea344a61-779d-491a-b14c-91bfcb5a7a4e" name="maxt@219.223.189.145:22" url="http:///">
-        <fileTransfer host="219.223.189.145" port="22" accessType="SFTP">
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="ca376c29-917d-437f-baa8-a0e25f060fb1" name="maxt@219.223.189.145:22" url="http:///">
+      <webServer id="2a78bcde-d75c-48c5-9cce-e9cde4bbfc4f" name="MaxtDjangoEdge145" url="http:///">
         <fileTransfer host="219.223.189.145" port="22" accessType="SFTP">
           <option name="port" value="22" />
         </fileTransfer>
