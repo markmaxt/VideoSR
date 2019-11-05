@@ -1,8 +1,8 @@
 <application>
   <component name="WebServers">
     <option name="servers">
-      <webServer id="d7383097-2f11-498e-877e-372794bfdb8b" name="a3c" url="http://219.223.189.207">
-        <fileTransfer host="219.223.189.207" port="22" rootFolder="/home/maxt" accessType="SFTP">
+      <webServer id="d7383097-2f11-498e-877e-372794bfdb8b" name="a3c" url="http://219.223.189.145">
+        <fileTransfer host="219.223.189.145" port="22" rootFolder="/home/maxt" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
