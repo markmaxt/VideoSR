@@ -82,6 +82,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="b92ee2ef-8216-4225-a592-7efff30e69f9" name="P2PProxy147" url="http://219.223.189.147">
+        <fileTransfer host="219.223.189.147" port="22" rootFolder="/home/maxt" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
